@@ -1,3 +1,7 @@
+# Vignere Cipher
+# Author: tukykarmakar
+# Original work
+
 class VignereCipher:
     table = []
     def __init__ (self):
