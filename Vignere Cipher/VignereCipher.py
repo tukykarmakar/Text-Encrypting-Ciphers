@@ -59,6 +59,8 @@ while (choice != 3):
 	
 	try:
 		choice = int (input ("Choice: "))
+		if (choice < 1 or choice > 3):
+			raise ValueError
 	except ValueError:
 		print ("Invalid Choice! Try Again.\n")
 		
